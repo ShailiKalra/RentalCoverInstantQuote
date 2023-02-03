@@ -91,7 +91,7 @@ class RentalCoverInstantQuote(unittest.TestCase):
         # Click on the button
         getquote_button.click()
                        
-        """
+        
         # Locate the button using a CSS class and text
         getquote_button = WebDriverWait(self.driver, 20).until(
         EC.visibility_of_element_located((By.XPATH, "//button[@class='QuoteForm-submit Form-submit btn btn-warning btn-lg btn-block' and span[@class='btn-text' and text()='Get Your Instant Quote']]")),
@@ -100,7 +100,7 @@ class RentalCoverInstantQuote(unittest.TestCase):
         
         # Click on the button
         getquote_button.click()
-        """
+        
 
         # Wait for 10 seconds
         time.sleep(10)
